@@ -15,10 +15,11 @@
     <header class="header">
         <article class="contenedor">
             <article class="barra">
+                <!-- logo -->
                 <a class="logo no-margin centrear_texto" href="index.html">
                     <h1 class="logo__nombre">Blog<span class="logo__bold">DeCafé</span></h1>
                 </a>
-                
+
                 <!-- navegacion principal -->
                 <nav class="navegacion">
                     <a href="Pages/nosotros.html" class="navegacion__enlace">Nosotros</a>
@@ -27,17 +28,66 @@
                 </nav>
             </article>
         </article>
-        
+
+        <!-- texto header -->
         <article class="header__texto">
             <h2 class="no-margin">blog de cafe con consejo y cursos</h2>
             <p>Aprende de los expertos con las mejores resetas y consejos</p>
         </article>
     </header>
-    
 
-    <!-- contenido principal de la pagina -->
-    <main>
 
-    </main>
+    <section class="contenedor contenido-principal">
+        <!-- contenido principal de la pagina -->
+        <main class="blog">
+            <h3>nuestr Blog</h3>
+
+            <!-- primer articulo -->
+            <article class="entrada">
+                <figure class="entrada__imagen">
+                    <img src="img/blog1.jpg" alt="imagen blog">
+                    <figcaption class="entrada__contenido">
+                        <h4 class="no-margin">Tipos de grano de Café</h4>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sed, autem delectus ut cumque atque 
+                            rerum veniam illo magni ad dolorum quis, provident adipisci nulla placeat accusantium maxime obcaecati natus.</p>
+                            <a href="entrada.html" class="boton boton--primario">Leer entrada</a>
+                    </figcaption>
+                </figure>
+            </article>
+
+            <!-- segundo articulo -->
+            <article class="entrada">
+                <figure class="entrada__imagen">
+                    <img src="img/blog2.jpg" alt="imagen blog">
+                    <figcaption class="entrada__contenido">
+                        <h4 class="no-margin">Deliciosas recetas de Café</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sed, autem delectus ut cumque atque
+                            rerum veniam illo magni ad dolorum quis, provident adipisci nulla placeat accusantium maxime obcaecati
+                            natus.</p>
+                        <a href="entrada.html" class="boton boton--primario">Leer entrada</a>
+                    </figcaption>
+                </figure>
+            </article>
+
+            <!-- tercer articulo -->
+            <article class="entrada">
+                <figure class="entrada__imagen">
+                    <img src="img/blog3.jpg" alt="imagen blog">
+                    <figcaption class="entrada__contenido">
+                        <h4 class="no-margin">Beneficios del café</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi sed, autem delectus ut cumque atque
+                            rerum veniam illo magni ad dolorum quis, provident adipisci nulla placeat accusantium maxime obcaecati
+                            natus.</p>
+                        <a href="entrada.html" class="boton boton--primario">Leer entrada</a>
+                    </figcaption>
+                </figure>
+            </article>
+        </main>
+
+        <!-- aside fuera del contenido principal -->
+        <aside class="flex sidebar">
+            <h3>nuestros cursos y talleres</h3>
+        </aside>
+    </section>
 </body>
 </html>
