@@ -24,8 +24,7 @@ body{
 
 /* Globales */
 .contenedor {
-    max-width: 120rem;
-    margin: 0 auto;
+    width: min(90% , 1200px);
     width: 90%;
 }
 a{
@@ -83,10 +82,14 @@ img{
         align-items: center;
     }
 }
+.barra{
+    padding-top: 4rem;
+}
 .logo{
     color: var(--blanco);
 }
 .logo__nombre{
+    color: var(--blanco);
     font-weight: 400;
 }
 .logo__bold{
@@ -152,7 +155,7 @@ img{
     list-style: none;
 }
 .widge-curso{
-    border-bottom: 2px solid --claro;
+    border-bottom: 2px solid var(--claro);
     margin-bottom: 2rem;
 }
 .widge-curso:last-of-type{
@@ -166,6 +169,17 @@ img{
 .widge-curso__precio{
     font-weight: normal ;
 }
-.widge-curso__label, .widge-curso__precio{
+.widge-curso__precio, .widge-curso__label{
+    font-size: 2rem;
+}
 
+.footer{
+    background-color: var(--negro);
+    padding: 1rem;
+}
+
+.footer--nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
