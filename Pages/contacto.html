@@ -39,6 +39,45 @@
         </article>
     </header>
 
+    <!-- formulario contacto -->
+    <main class="contenedor">
+        <h3 class="centrear-texto">Contacto</h3>
+        <figure class="contacto-bg"></figure>
+
+        <form class="formulario">
+            <article class="campo">
+                <label class="campo__label" for="nombre">Nombre</label>
+                <input 
+                    class="campo__field"
+                    type="text" 
+                    placeholder="Nombre" 
+                    id="nombre"
+                >
+            </article>
+            <article class="campo">
+                <label class="campo__label" for="Email">E-mail</label>
+                <input 
+                    class="campo__field"
+                    type="email" 
+                    placeholder="E-mail" 
+                    id="Email"
+                >
+            </article>
+            <article class="campo">
+                <label class="campo__label" for="Mensaje">Mensaje</label>
+                <textarea 
+                    class="campo__field campo__field--textarea"
+                    id="Mensaje"
+                ></textarea>
+            </article>
+            <article class="campo">
+                <input type="submit" value="Enviar" class="boton boton--primario">
+            </article>
+        </form>
+    </main>
+
+
+
     <footer class="footer">
         <article class="footer--nav contenedor">
             <h2 class="logo__nombre">Blog<span class="logo__bold">DeCafé</span></h2>
