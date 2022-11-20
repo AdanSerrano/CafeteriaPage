@@ -172,14 +172,26 @@ img{
 .widge-curso__precio, .widge-curso__label{
     font-size: 2rem;
 }
-
 .footer{
     background-color: var(--negro);
     padding: 1rem;
 }
 
-.footer--nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+@media (min-width: 480px) {
+    
+    .footer--nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+/* sobre nosotros */
+@media (min-width: 768px) {
+    .sobre--nosotros{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2rem;
+        margin: 0 0 100px 0;
+    }
 }
